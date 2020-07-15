@@ -8,6 +8,14 @@ public class Account {
     private String currency;
     private String notes;
 
+    public Account(Long id, String name, Long value, String currency, String notes) {
+        this.id = id;
+        this.name = name;
+        this.value = value;
+        this.currency = currency;
+        this.notes = notes;
+    }
+
     public Account(Long id) {
         this.id = id;
     }

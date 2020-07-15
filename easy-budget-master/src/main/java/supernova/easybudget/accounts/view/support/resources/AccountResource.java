@@ -7,10 +7,19 @@ import org.springframework.hateoas.server.core.Relation;
 @Relation(value = "account", collectionRelation = "accounts")
 public class AccountResource extends RepresentationModel<AccountResource> {
 
+    private Long id;
     private String name;
     private Long value;
     private String currency;
     private String notes;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public Long getValue() {
         return value;
