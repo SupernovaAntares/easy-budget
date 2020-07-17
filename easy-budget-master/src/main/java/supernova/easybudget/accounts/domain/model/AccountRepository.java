@@ -1,9 +1,5 @@
 package supernova.easybudget.accounts.domain.model;
 
-
-
-import org.springframework.http.ResponseEntity;
-
 import java.util.List;
 import java.util.Optional;
 
